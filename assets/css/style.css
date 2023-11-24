@@ -4,6 +4,11 @@
     box-sizing: border-box;
 }
 
+header{
+    position: fixed;
+    width: 100%;
+}
+
 .header-flex{
     display: flex;
     justify-content: space-between;
