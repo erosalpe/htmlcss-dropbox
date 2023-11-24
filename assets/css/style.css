@@ -202,8 +202,68 @@ main{
 .plan-specs h4{
     margin-bottom: 30px;
 }
+.plan-specs{
+    display: flex;
+    flex-direction: column;
+}
 
-.plan-specs span{
-    display: inline-block;
+.spec-row{
+    display: flex;
+    gap: 10px;
     margin-bottom: 20px;
+}
+
+.spec-row div{
+    flex-shrink: 1;
+}
+
+svg{
+    flex-shrink: 0;
+}
+
+.name-price h3{
+    font-size: 25px;
+}
+
+.plan-price{
+    font-weight: bold;
+}
+
+.plan hr{
+    width: 20%;
+}
+
+.team-body-l{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.team-body-l p{
+    margin-top: 20px;
+}
+
+.team-body-r button{
+    margin-bottom: 20px;
+    font-size: 16px;
+    background-color: #0061ff;
+    border: none;
+    padding-block: 10px;
+    padding-inline: 20px;
+    color: white;
+    width: 100%;
+}
+
+.plan-team-body{
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    border-left:  1px solid lightgrey;
+    border-right:  1px solid lightgrey;
+    border-bottom:  1px solid lightgrey;
+    padding: 30px;
+}
+
+.team-body-l{
+    flex-shrink: 10000;
 }
