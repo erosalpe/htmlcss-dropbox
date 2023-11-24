@@ -125,16 +125,24 @@ main{
     width: 50%;
     margin: auto;
     padding-top: 150px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
 }
 
 .section-two-flex h2{
     font-size: 50px;
 }
 
+.inputmargin{
+    margin-left: 30px;
+    display: inline-block;
+}
 .plan-head{
     border: 1px solid lightgrey;
     display: flex;
     justify-content: center;
+    padding: 10px;
 }
 
 .plan-body,
@@ -149,9 +157,51 @@ main{
     border-left:  1px solid lightgrey;
     border-right:  1px solid lightgrey;
     border-bottom:  1px solid lightgrey;
+    padding: 30px;
 }
 
 .name-price,
 .benefits{
     gap: 15px;
+}
+
+.benefits-row{
+    display: flex;
+    gap: 10px;
+}
+
+.benefits-row div{
+    flex-shrink: 1;
+}
+
+.benefits-row svg{
+    flex-shrink: 0;
+}
+.plans{
+    display: flex;
+    gap: 20px;
+}
+
+.try-button button{
+    margin-bottom: 20px;
+    font-size: 16px;
+    background-color: #0061ff;
+    border: none;
+    padding-block: 10px;
+    padding-inline: 20px;
+    color: white;
+    width: 100%;
+}
+
+.plan-specs h4{
+    margin-bottom: 30px;
+}
+
+.plan-specs span{
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+.plan-specs{
+    margin-bottom: 180px;
 }
