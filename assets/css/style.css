@@ -403,3 +403,54 @@ svg{
 .flexing-body a{
     color: #0061ff;
 }
+
+/* Sezione 6 */
+
+.members-body{
+
+}
+
+.members-l{
+    display: flex;
+    flex-wrap: wrap;
+    width: calc(100vw / 3);
+}
+
+.member-one,
+.member-two,
+.member-three,
+.member-four{
+    flex-basis: calc(100vw/ 6);
+    height: calc(100vw/ 6);
+    padding: 20px;
+}
+
+.member-one svg,
+.member-two svg,
+.member-three svg,
+.member-four svg{
+    width: 100%;
+    height: 100%;
+    padding: 20%;
+    fill: white;
+}
+
+.member-one{
+    background-color: #D1E9CD;
+}
+
+.member-one svg{
+    background-color: #A2D39B;
+}
+
+.member-two{
+    background-color: #61082b;
+}
+
+.member-three{
+    background-color: #0093ce;
+}
+
+.member-four{
+    background-color: #FF1C1C;
+}
