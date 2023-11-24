@@ -132,6 +132,7 @@ main{
     display: flex;
     flex-direction: column;
     gap: 50px;
+    margin-bottom: 100px;
 }
 
 .section-two-flex h2{
@@ -142,6 +143,11 @@ main{
     margin-left: 30px;
     display: inline-block;
 }
+
+.plan{
+    margin-bottom: 40px;
+}
+
 .plan-head{
     border: 1px solid lightgrey;
     display: flex;
@@ -185,7 +191,7 @@ main{
 }
 .plans{
     display: flex;
-    gap: 20px;
+    gap: 50px;
 }
 
 .try-button button{
@@ -229,6 +235,10 @@ svg{
     font-weight: bold;
 }
 
+.time-span{
+    color: rgb(104, 104, 104);
+}
+
 .plan hr{
     width: 20%;
 }
@@ -267,3 +277,49 @@ svg{
 .team-body-l{
     flex-shrink: 10000;
 }
+
+.partner-section{
+    display: flex;
+    width: 50%;
+    margin: 0 auto;
+    gap: 50px;
+}
+
+.partner-section-l{
+    width: 65%;
+}
+
+.partner-img{
+    width: 100%;
+}
+
+.partner-img img{
+    width: 100%;
+    object-fit: contain;
+    display: block;
+}
+
+.partner-section-r{
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+    gap: 30px;
+    padding-top: 50px;
+}
+
+.partner-section-r h3{
+    font-size: 25px;
+}
+
+.partner-section-r p{
+    font-size: 17px;
+}
+
+.partner-section-r button{
+    font-size: 18px;
+    background-color: white;
+    border: 1px solid black;
+    padding: 10px;
+}
+
+
