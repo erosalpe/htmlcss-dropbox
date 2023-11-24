@@ -334,6 +334,7 @@ svg{
 .business{
     width: 50%;
     margin: 0 auto;
+    margin-bottom: 180px;
 }
 
 .business h2{
@@ -380,3 +381,25 @@ svg{
 }
 
 
+/* Sezione Flexing */
+
+.flexing{
+    width: 50%;
+    margin: 0 auto;
+    margin-bottom: 120px;
+}
+
+.flexing h2{
+    font-size: 40px;
+}
+
+.flexing-body{
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    width: 60%;
+}
+
+.flexing-body a{
+    color: #0061ff;
+}
