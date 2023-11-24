@@ -134,4 +134,24 @@ main{
 .plan-head{
     border: 1px solid lightgrey;
     display: flex;
+    justify-content: center;
+}
+
+.plan-body,
+.name-price,
+.benefits{
+    display: flex;
+    flex-direction: column;
+}
+
+.plan-body{
+    gap: 50px;
+    border-left:  1px solid lightgrey;
+    border-right:  1px solid lightgrey;
+    border-bottom:  1px solid lightgrey;
+}
+
+.name-price,
+.benefits{
+    gap: 15px;
 }
