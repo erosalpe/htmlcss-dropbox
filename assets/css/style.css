@@ -7,6 +7,8 @@
 header{
     position: fixed;
     width: 100%;
+    z-index: 999;
+    background-color: white;
 }
 
 .header-flex{
@@ -15,6 +17,7 @@ header{
     align-items: center;
     padding-top: 30px;
     padding-inline: 20px;
+    padding-bottom: 20px;
 }
 .nav-l{
     display: flex;
@@ -113,4 +116,22 @@ main{
 .p-sezione-l a svg{
     margin-top: 50px;
     font-size: 50px;
+}
+
+
+
+
+.section-two-flex{
+    width: 50%;
+    margin: auto;
+    padding-top: 150px;
+}
+
+.section-two-flex h2{
+    font-size: 50px;
+}
+
+.plan-head{
+    border: 1px solid lightgrey;
+    display: flex;
 }
