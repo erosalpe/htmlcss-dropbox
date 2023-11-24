@@ -60,12 +60,15 @@ header{
     font-size: 18px;
 }
 
+/* main*/
+
 main{
-    padding-top: 80px;
+    padding-top: 80px; 
 }
 
+/* Sezione 1*/
 .corpo-sezione{
-    display: flex;
+    display: flex; 
     flex-direction: column;
     width: 60%;
     margin: auto;
@@ -123,10 +126,10 @@ main{
 }
 
 
-
+/* Sezione 2*/
 
 .section-two-flex{
-    width: 50%;
+    width: 50%; 
     margin: auto;
     padding-top: 150px;
     display: flex;
@@ -278,11 +281,16 @@ svg{
     flex-shrink: 10000;
 }
 
+
+/* Sezione 3*/
+
+
 .partner-section{
-    display: flex;
+    display: flex; 
     width: 50%;
     margin: 0 auto;
     gap: 50px;
+    margin-bottom: 150px;
 }
 
 .partner-section-l{
@@ -320,6 +328,55 @@ svg{
     background-color: white;
     border: 1px solid black;
     padding: 10px;
+}
+
+/* Sezione 4 */
+.business{
+    width: 50%;
+    margin: 0 auto;
+}
+
+.business h2{
+    margin-bottom: 80px;
+    font-size: 40px;
+}
+
+.business-body{
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 60px;
+    column-gap: 30px;
+}
+.business-card{
+    display: flex;
+    --gap: 30px;
+    --columns: 3;
+    flex-basis: calc((100% / var(--columns)) - var(--gap) + (var(--gap) / var(--columns)));
+}
+
+.business-card-body{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.business-card-body h4{
+    font-size: 25px;
+}
+
+.business-card-body p{
+    font-size: 18px;
+}
+
+
+.business-img{
+    width: 100%;
+    object-fit: contain;
+}
+
+.business-img img{
+    width: 100%;
+    display: block;
 }
 
 
