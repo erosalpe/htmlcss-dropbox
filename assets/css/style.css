@@ -557,3 +557,30 @@ svg{
     padding-inline: 35px;
     text-decoration: none; 
 }
+
+/* Sezione Faq */
+
+.faq{
+    padding-top: 100px;
+    width: 50%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.faq h2{
+    font-size: 50px;
+}
+
+.faq p{
+    font-size: 18px;
+    font-weight: bold;
+    position: relative;
+}
+
+.faq p svg{
+    position: absolute;
+    right: 0;
+    font-size: 14px;
+}
