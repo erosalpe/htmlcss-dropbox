@@ -56,7 +56,8 @@ header{
     background-color: #0061ff;
     color: white;
     border: none;
-    padding: 5px;
+    padding-block: 9px;
+    padding-inline: 20px;
     font-size: 18px;
     text-decoration: none;
 }
@@ -93,12 +94,6 @@ main{
     flex-direction: column;
     width: 35%;
     gap: 20px;
-    font-size: 20px;
-}
-
-
-.button-free .button-blue{
-    margin-bottom: 20px;
     font-size: 20px;
 }
 
@@ -200,15 +195,17 @@ main{
     gap: 40px;
 }
 
-.try-button button{
-    margin-bottom: 20px;
+.try-button .button-blue{
     font-size: 16px;
-    background-color: #0061ff;
-    border: none;
     padding-block: 10px;
-    padding-inline: 20px;
-    color: white;
-    width: 100%;
+    padding-inline: 10px;
+    text-align: center;
+}
+
+.try-button{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
 
 .plan-specs h4{
@@ -257,17 +254,6 @@ svg{
 
 .team-body-l p{
     margin-top: 20px;
-}
-
-.team-body-r button{
-    margin-bottom: 20px;
-    font-size: 16px;
-    background-color: #0061ff;
-    border: none;
-    padding-block: 10px;
-    padding-inline: 20px;
-    color: white;
-    width: 100%;
 }
 
 .plan-team-body{
@@ -326,12 +312,23 @@ svg{
     font-size: 17px;
 }
 
-.partner-section-r button{
+.button-white{
     font-size: 18px;
     background-color: white;
     border: 1px solid black;
     padding: 10px;
+    color: black;
 }
+
+.button-white:hover{
+    color: rgba(0,0,0,0.7);
+}
+
+
+.button-partner a{
+    text-decoration: none;
+}
+
 
 /* Sezione 4 */
 .business{
@@ -558,6 +555,10 @@ svg{
     text-decoration: none; 
 }
 
+.button-trial:hover{
+    color: rgba(0,0,0,0.7);
+}
+
 /* Sezione Faq */
 
 .faq{
@@ -640,3 +641,8 @@ footer{
     display: flex;
     gap: 10px;
 }
+
+.button-blue:hover{
+    background-color: rgba(0, 97, 255, 0.8);
+}
+
