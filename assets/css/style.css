@@ -197,7 +197,7 @@ main{
 }
 .plans{
     display: flex;
-    gap: 50px;
+    gap: 40px;
 }
 
 .try-button button{
@@ -583,4 +583,60 @@ svg{
     position: absolute;
     right: 0;
     font-size: 14px;
+}
+
+/* Footer */
+
+footer{
+    margin-top: 100px;
+    background-color: black;
+}
+
+.footer-lists{
+    padding-top: 100px;
+    display: flex;
+    gap: 45px;
+    width: 60%;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.list ul{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    list-style-type: none;
+}
+
+.list h3{
+    padding-bottom: 40px;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.list ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+.hr{
+    padding-top: 100px;
+    padding-bottom: 50px;
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.hr hr{
+    width: 15%;
+}
+
+.language{
+    color: lightgray;
+    fill: lightgray;
+    display: flex;
+    gap: 10px;
 }
