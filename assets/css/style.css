@@ -419,15 +419,23 @@ svg{
 .member-one,
 .member-two,
 .member-three,
-.member-four{
-    flex-basis: calc(100vw/ 6);
+.member-four,
+.member-five,
+.member-six,
+.member-seven,
+.member-eighth{
+    flex-basis: calc(98vw/ 6);
     height: calc(100vw/ 6);
     padding: 20px;
 }
 
 .member-one svg,
 .member-two svg,
-.member-four svg{
+.member-four svg,
+.member-five svg,
+.member-six svg,
+.member-seven svg,
+.member-eighth svg{
     width: 100%;
     height: 100%;
     padding: 20%;
@@ -444,6 +452,7 @@ svg{
 }
 .member-three img{
     width: 60%;
+    display: block;
 }
 
 .member-one{
@@ -466,6 +475,23 @@ svg{
     background-color: #FF1C1C;
 }
 
+.member-five{
+    background-color: #FF1C1C;
+}
+
+.member-six{
+    background-color: #b4d0e7;
+}
+
+.member-seven{
+    background-color: #0d2481;
+}
+
+.member-eighth{
+    background-color: #ffd830;
+}
+
+
 /* Sezione 6 porzione centrale */
 
 .center-box{
@@ -477,4 +503,24 @@ svg{
     display: flex;
     flex-direction: column;
     gap: 40px;
+}
+
+.center-box img{
+    width: 50%;
+    display: block;
+}
+
+.center-box hr{
+    width: 20%;
+}
+
+.center-box blockquote{
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.members-r{
+    display: flex;
+    flex-wrap: wrap;
+    width: calc(100vw / 3);
 }
