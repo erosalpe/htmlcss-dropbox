@@ -46,18 +46,19 @@ header{
     align-items: center;
 }
 
-.header-flex a{
+.header-flex a:not(.nav-r li .button-blue){
     text-decoration: none;
     color: black;
     font-size: 18px;
 }
 
-.header-flex button{
+.button-blue{
     background-color: #0061ff;
     color: white;
     border: none;
     padding: 5px;
     font-size: 18px;
+    text-decoration: none;
 }
 
 /* main*/
@@ -96,13 +97,15 @@ main{
 }
 
 
-.button-free button{
+.button-free .button-blue{
     margin-bottom: 20px;
     font-size: 20px;
-    background-color: #0061ff;
-    border: none;
-    padding: 10px;
-    color: white;
+}
+
+.button-free{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
 }
 
 .img-sezione{
@@ -523,4 +526,34 @@ svg{
     display: flex;
     flex-wrap: wrap;
     width: calc(100vw / 3);
+}
+
+/* Trial section */
+
+.trial-section{
+    background-color: #b4d0e7;
+}
+
+.trial-flex{
+    display: flex;
+    width: 50%;
+    margin: 0 auto;
+    padding-block: 150px;
+    justify-content: center;
+    align-items: start;
+}
+
+.trial-flex h2{
+    font-size: 50px;
+    color: #61082b;
+    width: 70%;
+}
+
+.button-trial{
+    background-color: white;
+    color: Black;
+    border: none;
+    padding-block: 10px;
+    padding-inline: 35px;
+    text-decoration: none; 
 }
