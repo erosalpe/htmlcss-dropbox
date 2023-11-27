@@ -597,6 +597,8 @@ svg{
     font-size: 18px;
     font-weight: bold;
     position: relative;
+    height: 20px;
+    overflow: hidden;
 }
 
 .faq p svg{
@@ -604,6 +606,22 @@ svg{
     right: 0;
     font-size: 14px;
 }
+
+.faq p span{
+    font-weight: 100;
+}
+
+.faq p:hover{
+    height: 110px;
+    transition-duration: 1s;
+}
+
+.faq p:hover svg{
+    transform: rotate(180deg);
+    transition-duration: 1s;
+}
+
+
 
 /* Footer */
 
